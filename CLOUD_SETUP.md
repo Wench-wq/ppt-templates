@@ -6,7 +6,7 @@
 bash ./install.sh
 ```
 
-脚本要求环境中有 Node.js 18+、npm、Python 3.10+ 和 `unzip`。它会解压 `ppt-skills.zip`，把三个 Skill 安装到 `${CODEX_HOME:-~/.codex}/skills`，然后根据 `package-lock.json` 安装 Playwright、Chromium 和 Sharp，根据 `requirements.txt` 在仓库的 `.venv` 中安装 Python 图片与演示文稿校验工具，最后运行浏览器启动与 HTML 模板校验。无需设置启动脚本。
+脚本要求环境中有 Node.js 20.9+、npm、Python 3.10+ 和 `unzip`。它会解压 `ppt-skills.zip`，把三个 Skill 安装到 `${CODEX_HOME:-~/.codex}/skills`，然后根据 `package-lock.json` 安装 Playwright、Chromium 和 Sharp，根据 `requirements.txt` 在仓库的 `.venv` 中安装 Python 图片与演示文稿校验工具，最后运行浏览器启动与 HTML 模板校验。无需设置启动脚本。
 
 `gravity-ppt-skill` 与 `pixel-ppt-skill` 的模板、脚本均在压缩包内。云环境需要能下载 Chromium；如果浏览器无法启动，还需由云环境提供相应的 Linux 系统库。
 

@@ -12,8 +12,9 @@ for tool in node npm python3 unzip; do
 done
 
 node_major="$(node -p 'process.versions.node.split(".")[0]')"
-if (( node_major < 18 )); then
-  echo "Node.js 18 or newer is required (found $(node --version))." >&2
+node_minor="$(node -p 'process.versions.node.split(".")[1]')"
+if (( node_major < 20 || (node_major == 20 && node_minor < 9) )); then
+  echo "Node.js 20.9 or newer is required (found $(node --version))." >&2
   exit 1
 fi
 

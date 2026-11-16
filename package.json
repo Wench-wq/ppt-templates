@@ -1,0 +1,10 @@
+{
+  "name": "ppt-templates-cloud-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Browser and image tools for presentation skills",
+  "dependencies": {
+    "playwright": "1.65.1",
+    "sharp": "0.35.5"
+  }
+}

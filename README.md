@@ -32,3 +32,17 @@ python3 skills/reference-to-ppt/scripts/build_presentation.py \
 ```
 
 查看全部命令和依赖说明，请读 [Skill 使用说明](skills/reference-to-ppt/README.md)。现有 `install.sh` 仍负责原三套 Skill；本 Skill 可直接读取使用，或手动复制到客户端配置的 skills 目录。
+
+## 短篇小说 skill：short-story-12000
+
+独立保存在 [.agents/skills/short-story-12000](.agents/skills/short-story-12000/SKILL.md)，不影响 PPT 技能。包含设定选择、导语、人物背景、五段式大纲、正文创作与审校。默认约一万二千字，现实复仇／逆袭，可切换类型；超过 1000 字以 Markdown 文档交付。
+
+在包含这些文件的分支打开 Codex 云端工作区，新开会话后尝试：
+
+> $short-story-12000 帮我策划一篇约一万二千字的现实复仇短篇，先给三组设定，确认后再写大纲和正文。
+
+若客户端没有识别命令，直接说：
+
+> 请读取并遵循 `.agents/skills/short-story-12000/SKILL.md`，使用样板 A，先完善导语和详细大纲，暂不写正文。
+
+无需运行 PPT 安装脚本即可读取这套 Markdown 技能。GitHub 保存可跨工作区恢复；自动发现取决于客户端。它不会自动安装到其他仓库或账号的全部会话。

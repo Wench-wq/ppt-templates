@@ -1,0 +1,12 @@
+{
+  "slides": 11,
+  "editable_textboxes": 68,
+  "native_charts": 1,
+  "transitions": 11,
+  "internal_links": 13,
+  "errors": [],
+  "limits": [
+    "Text overflow and overlap require visual inspection",
+    "WPS playback unverified"
+  ]
+}

@@ -1,3 +1,4 @@
-/skills/
+/skills/*
+!/skills/reference-to-ppt/
 /node_modules/
 /.venv/

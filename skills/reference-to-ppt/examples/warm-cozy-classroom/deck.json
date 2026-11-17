@@ -1,0 +1,134 @@
+{
+  "reference_mode": "high_similarity",
+  "use_case": "classroom",
+  "ratio": "16:9",
+  "editor": "WPS",
+  "content_editing": "moderate",
+  "motion": "narrative",
+  "palette": {
+    "bg": "F2E8D5",
+    "ink": "343A24",
+    "olive": "667044",
+    "orange": "BF663A",
+    "paper": "FFF8E8"
+  },
+  "fonts": {
+    "title": "Noto Serif CJK SC",
+    "body": "Noto Sans CJK SC"
+  },
+  "approval": "design_and_representative_pages_unless_authorized_direct",
+  "background": "layered",
+  "deliverables": "full",
+  "title": "让课堂表达更清楚",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "让课堂表达\n更清楚",
+      "body": [
+        "从一个问题，到一条清晰的讲述线索"
+      ],
+      "notes": "今天我们练习组织表达，而不是堆满页面。",
+      "minutes": 1
+    },
+    {
+      "type": "agenda",
+      "title": "今天，一起完成三件事",
+      "body": [
+        "找到每页的核心问题",
+        "用结构组织解释",
+        "用练习检验理解"
+      ],
+      "notes": "介绍学习路径。右侧箭头可跳转，底部目录可返回。",
+      "minutes": 1,
+      "targets": [
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "type": "section",
+      "title": "01 / 先找到问题",
+      "body": [
+        "学生听完这一页，应该能回答什么？"
+      ],
+      "notes": "请学生先给出自己的例子。",
+      "minutes": 1
+    },
+    {
+      "type": "content",
+      "title": "一页，先说清楚一件事",
+      "body": [
+        "先写一个能被回答的问题",
+        "再保留支持答案的关键内容",
+        "把补充细节放进讲者备注"
+      ],
+      "notes": "示范把一个宽泛主题缩小成一个具体问题。",
+      "minutes": 2
+    },
+    {
+      "type": "compare",
+      "title": "把材料变成有顺序的解释",
+      "body": [
+        "材料堆放\n观点、例子、细节同时出现",
+        "结构表达\n先观点，再例子，最后回扣"
+      ],
+      "notes": "比较两种讲述方式，让学生判断哪种更容易跟随。",
+      "minutes": 2
+    },
+    {
+      "type": "process",
+      "title": "让理解，一步一步发生",
+      "body": [
+        "提出问题\n为什么需要这条规则？",
+        "展示例子\n它在什么情境下成立？",
+        "回扣结论\n我们能怎么应用？"
+      ],
+      "notes": "每次翻页多揭示一步；停下来邀请学生预测下一步。",
+      "minutes": 3,
+      "reveal": true
+    },
+    {
+      "type": "chart",
+      "title": "用数据，找到课堂的起点",
+      "body": [
+        "先看分布，再解释差异",
+        "这些数字仅用于演示图表设计"
+      ],
+      "notes": "横轴为练习阶段，纵轴为完成练习人数。请勿将演示数据当作实际研究。",
+      "minutes": 2,
+      "categories": [
+        "初次练习",
+        "同伴讨论后",
+        "再次练习"
+      ],
+      "values": [
+        12,
+        20,
+        27
+      ],
+      "series": "完成人数（人）",
+      "source": "演示数据｜同一假设班级，三个阶段的完成人数；非真实调查。"
+    },
+    {
+      "type": "summary",
+      "title": "轮到你：设计一页课堂解释",
+      "body": [
+        "写下一个具体问题",
+        "选择一个能支持答案的例子",
+        "请同伴复述你的核心观点"
+      ],
+      "notes": "两人一组练习，教师巡视，再邀请一组分享。",
+      "minutes": 3
+    },
+    {
+      "type": "closing",
+      "title": "留一个问题，\n带走一个方法",
+      "body": [
+        "先想清楚学生需要理解什么，再决定页面放什么。"
+      ],
+      "notes": "请学生用一句话说出今天最有用的方法。",
+      "minutes": 1
+    }
+  ]
+}

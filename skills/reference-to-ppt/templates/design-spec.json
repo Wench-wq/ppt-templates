@@ -1,0 +1,22 @@
+{
+  "reference_mode": "high_similarity",
+  "use_case": "classroom",
+  "ratio": "16:9",
+  "editor": "WPS",
+  "content_editing": "moderate",
+  "motion": "narrative",
+  "palette": {
+    "bg": "F2E8D5",
+    "ink": "343A24",
+    "olive": "667044",
+    "orange": "BF663A",
+    "paper": "FFF8E8"
+  },
+  "fonts": {
+    "title": "Noto Serif CJK SC",
+    "body": "Noto Sans CJK SC"
+  },
+  "approval": "design_and_representative_pages_unless_authorized_direct",
+  "background": "layered",
+  "deliverables": "full"
+}
